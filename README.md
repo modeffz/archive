@@ -1,2 +1,2 @@
-# image-archive
+# archive
 For immages
