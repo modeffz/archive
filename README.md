@@ -1,2 +1,2 @@
 # archive
-For immages
+For images
