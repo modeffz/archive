@@ -1,0 +1,3 @@
+/home/modeffz/code/cpp/Platformer/build/CMakeFiles/PlatformerRewind.dir
+/home/modeffz/code/cpp/Platformer/build/CMakeFiles/edit_cache.dir
+/home/modeffz/code/cpp/Platformer/build/CMakeFiles/rebuild_cache.dir

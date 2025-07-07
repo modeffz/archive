@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/modeffz/code/cpp/platformer/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
