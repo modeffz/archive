@@ -17,10 +17,12 @@ int main() {
     level.LoadTextures();
     
     Menu menu;
+    menu.LoadTextures();
 
     Player player;
     player.position = level.playerStartPosition;
     player.LoadTextures();
+    
     TimeRewind rewindSystem;
     rewindSystem.StartRecording(player);
 
@@ -29,18 +31,16 @@ int main() {
         platformRects.push_back(platform.rect);
     }
 
-    while (!WindowShouldClose()) {
-       // if (!rewindSystem.IsRewinding()) {
+    while (!WindowShouldClose() && !menu.IsExitButtonPressed()) {
+       if (menu.IsStartButtonPressed()) {
             player.Update(platformRects);
-        //}
-        rewindSystem.Update(player);
-        rewindSystem.Rewind(player);
+            rewindSystem.Update(player);
+            rewindSystem.Rewind(player);
+        }
 
         BeginDrawing();
-            ClearBackground(BLACK);
-            level.Draw();
-            player.Draw();
-            //menu.Draw();
+            ClearBackground(GREEN);
+            menu.Draw(player, level);
             DrawText(TextFormat("Pos: %.0f, %.0f", player.position.x, player.position.y), 10, 10, 20, WHITE);
             DrawText(TextFormat("Rewind: %s", rewindSystem.IsRewinding() ? "ON" : "OFF"), 10, 30, 20, WHITE);
             DrawText("Controls: A/D - Move, SPACE - Jump, R - Rewind", 10, 570, 20, LIGHTGRAY);
@@ -48,6 +48,8 @@ int main() {
 
     }
     player.UnloadTextures();
+    level.UnloadTextures();
+    menu.UnloadTextures();
     CloseWindow();
     return 0;
 }

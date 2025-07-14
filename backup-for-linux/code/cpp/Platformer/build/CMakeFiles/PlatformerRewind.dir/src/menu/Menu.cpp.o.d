@@ -58,4 +58,7 @@ CMakeFiles/PlatformerRewind.dir/src/menu/Menu.cpp.o: \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stddef.h \
  /usr/include/c++/15.1.1/bits/uses_allocator.h \
  /usr/include/c++/15.1.1/bits/uses_allocator_args.h \
- /usr/include/c++/15.1.1/tuple
+ /usr/include/c++/15.1.1/tuple \
+ /home/modeffz/code/cpp/Platformer/src/entities/Player.h \
+ /home/modeffz/code/cpp/Platformer/src/levels/Level2.h \
+ /home/modeffz/code/cpp/Platformer/src/levels/Level.h

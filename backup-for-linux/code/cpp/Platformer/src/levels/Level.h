@@ -13,7 +13,7 @@ public:
     virtual void Update();
     virtual void Draw();
     void LoadTextures();
-    
+    void UnloadTextures();
     std::vector<Platform> platforms;
     Vector2 playerStartPosition { 100, 100 };
     Texture2D sky;

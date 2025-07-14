@@ -264,6 +264,9 @@ CMakeFiles/PlatformerRewind.dir/src/main.cpp.o: /home/modeffz/code/cpp/Platforme
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stddef.h
 
 CMakeFiles/PlatformerRewind.dir/src/menu/Menu.cpp.o: /home/modeffz/code/cpp/Platformer/src/menu/Menu.cpp \
+  /home/modeffz/code/cpp/Platformer/src/entities/Player.h \
+  /home/modeffz/code/cpp/Platformer/src/levels/Level.h \
+  /home/modeffz/code/cpp/Platformer/src/levels/Level2.h \
   /home/modeffz/code/cpp/Platformer/src/menu/Menu.h \
   /usr/include/bits/long-double.h \
   /usr/include/bits/timesize.h \

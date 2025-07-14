@@ -1,5 +1,9 @@
 #include "Level.h"
 
+void Level::UnloadTextures() {
+    UnloadTexture(sky);
+}
+
 void Level::Update() {
 
 }
