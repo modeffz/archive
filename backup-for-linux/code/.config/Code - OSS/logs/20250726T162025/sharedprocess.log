@@ -1,0 +1,15 @@
+2025-07-26 16:20:36.287 [info] Deleted marked for removal extension from disk bastndev.lynx-theme /home/modeffz/.vscode-oss/extensions/bastndev.lynx-theme-1.9.9-universal
+2025-07-26 16:20:47.898 [info] Getting Manifest... bastndev.lynx-keymap
+2025-07-26 16:20:47.899 [info] Getting Manifest... bastndev.lynx-theme
+2025-07-26 16:20:48.573 [info] Installing extension: bastndev.lynx-theme {"productVersion":{"version":"1.102.1","date":"2025-07-19T14:09:10.325Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json","path":"/home/modeffz/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-07-26 16:20:48.576 [info] Installing extension: bastndev.lynx-keymap {"productVersion":{"version":"1.102.1","date":"2025-07-19T14:09:10.325Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json","path":"/home/modeffz/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-07-26 16:20:54.716 [info] Extension signature verification result for bastndev.lynx-keymap: Success. Executed: true. Duration: 1202ms.
+2025-07-26 16:20:54.779 [info] Extracted extension to file:///home/modeffz/.vscode-oss/extensions/bastndev.lynx-keymap-2.0.8-universal: bastndev.lynx-keymap
+2025-07-26 16:20:54.833 [info] Renamed to /home/modeffz/.vscode-oss/extensions/bastndev.lynx-keymap-2.0.8-universal
+2025-07-26 16:20:54.908 [info] Marked extension as removed bastndev.lynx-keymap-2.0.1-universal
+2025-07-26 16:20:54.921 [info] Extension installed successfully: bastndev.lynx-keymap vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json
+2025-07-26 16:20:55.016 [info] Extension signature verification result for bastndev.lynx-theme: Success. Executed: true. Duration: 748ms.
+2025-07-26 16:20:56.239 [info] Extracted extension to file:///home/modeffz/.vscode-oss/extensions/bastndev.lynx-theme-2.1.0-universal: bastndev.lynx-theme
+2025-07-26 16:20:56.435 [info] Renamed to /home/modeffz/.vscode-oss/extensions/bastndev.lynx-theme-2.1.0-universal
+2025-07-26 16:20:56.552 [info] Marked extension as removed bastndev.lynx-theme-2.0.1-universal
+2025-07-26 16:20:56.565 [info] Extension installed successfully: bastndev.lynx-theme vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json

@@ -1,0 +1,10 @@
+(defwidget sysinfo []
+  (box :orientation "h" :spacing 8 :class "sysinfo"
+    (label :text " {cpu}%")
+    (label :text " {ram}%")
+    (label :text "💾 {disk}%")))
+
+(defwidget netinfo []
+  (box :orientation "h" :spacing 6 :class "netinfo"
+    (label :text " {down} KB/s")
+    (label :text " {up} KB/s")))

@@ -1,0 +1,9 @@
+(defwindow powermenu
+  :anchor "center"
+  :geometry (geometry :width "200px" :height "160px")
+  (box :orientation "v" :class "powermenu"
+    (button :onclick "shutdown now" "⏻ Shutdown")
+    (button :onclick "reboot" " Reboot")
+    (button :onclick "hyprctl dispatch exit" " Logout")
+    (button :onclick "eww close powermenu" "✕ Cancel")))
+

@@ -1,0 +1,34 @@
+(defwidget bar []
+  (box :orientation "h" :class "bar"
+    (workspaces)
+    (box :hexpand true)
+    (sysinfo)
+    (clock)
+    (netinfo)
+    (notif)
+    (volume)
+    (powerbutton)))
+
+(defwidget workspaces []
+  (box :orientation "h" :spacing 8 :class "workspaces"
+    (button :onclick "hyprctl dispatch workspace 1" "1")
+    (button :onclick "hyprctl dispatch workspace 2" "2")
+    (button :onclick "hyprctl dispatch workspace 3" "3")
+    (button :onclick "hyprctl dispatch workspace 4" "4")
+    (button :onclick "hyprctl dispatch workspace 5" "5")))
+
+(defwidget volume []
+  (box :orientation "h" :class "volume"
+    "🔊"
+    (scale :min 0 :max 100
+           :value volume
+           :onchange "wpctl set-volume @DEFAULT_AUDIO_SINK@ {}%")))
+
+(defwidget clock []
+  (label :text time :class "clock"))
+
+(defwidget powerbutton []
+  (button :class "power-btn" :onclick "eww open powermenu" "⏻"))
+
+(defwidget notif []
+  (button :class "notif-btn" :onclick "notify-send 'Уведомления пока нет'" "🔔"))

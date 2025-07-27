@@ -1,0 +1,27 @@
+2025-07-21T21:30:18.919Z - info: [main] Passing --gtk-version=3 to Electron
+2025-07-21T21:30:30.603Z - info: [ui] [AppStore] loading 2 repositories from store
+2025-07-21T21:30:30.604Z - info: [ui] [AppStore] found account: modeffz (modeffz)
+2025-07-21T21:30:31.555Z - info: [ui] launching: 3.5.1 (Linux 6.15.7-arch1-1)
+2025-07-21T21:30:31.556Z - info: [ui] execPath: '/opt/github-desktop-plus/github-desktop'
+2025-07-21T21:30:31.824Z - info: [ui] Subscribed 'modeffz' to Alive channel
+2025-07-21T21:30:32.044Z - info: [ui] Stats reported.
+2025-07-21T21:30:32.820Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.264s)
+2025-07-21T21:30:33.789Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 2.592s)
+2025-07-21T21:30:33.794Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 2.383s)
+2025-07-21T21:30:37.149Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.4s of which 0.0s paused, total 0.4s
+2025-07-21T21:30:43.734Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-07-21T21:30:44.669Z - info: [ui] Executing clone: git -c init.defaultBranch=main clone --recursive --progress -- https://github.com/modeffz/null.git /home/modeffz/code/GitHub/null (took 1.333s)
+2025-07-21T21:30:44.682Z - info: [ui] [AppStore] adding repository at /home/modeffz/code/GitHub/null to store
+2025-07-21T21:30:44.854Z - info: [ui] [BranchPruner] Last prune took place 14 seconds ago - skipping
+2025-07-21T21:30:45.476Z - info: [ui] [BranchPruner] No branches to prune.
+2025-07-21T21:35:53.599Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-07-21T21:35:54.309Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-07-21T22:06:43.798Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-07-21T22:06:44.262Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.079s)
+2025-07-21T22:06:44.550Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-07-21T22:37:33.858Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-07-21T22:37:34.549Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-07-21T23:08:23.457Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-07-21T23:08:24.150Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-07-21T23:39:13.058Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-07-21T23:39:13.847Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store

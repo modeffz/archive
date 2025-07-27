@@ -1,0 +1,45 @@
+2025-07-26 16:20:43.160 [info] GitLens v17.3.2 activating in Code - OSS (1.102.1) on the desktop; language='en', logLevel='warn', defaultDateLocale='null' (someValue.machineId|someValue.sessionId)
+To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
+[2025-07-26 13:20:42.997] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[2025-07-26 13:20:42.998] [GIT          ] [/home/modeffz/code] git rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [547ms] (slow)
+
+2025-07-26 16:20:43.501 [info] [2025-07-26 13:20:43.183] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[2025-07-26 13:20:43.183] [GIT          ] [/home/modeffz/code/cpp/Platformer/src/menu] git rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [10ms]
+
+2025-07-26 16:20:49.776 [info] [2025-07-26 13:20:49.274] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[2025-07-26 13:20:49.275] [GIT          ] [/home/modeffz/code/html] git rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [14ms]
+
+2025-07-26 16:28:12.441 [info] [2025-07-26 13:28:11.940] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[2025-07-26 13:28:11.942] [GIT          ] [/home/modeffz/code/js/test] git rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [180ms]
+
+2025-07-26 16:28:14.943 [info] [2025-07-26 13:28:14.881] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[2025-07-26 13:28:14.881] [GIT          ] [/home/modeffz/code/js/test] git rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [59ms]
+
+2025-07-26 16:28:16.458 [info] [2025-07-26 13:28:15.958] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[2025-07-26 13:28:15.958] [GIT          ] [/home/modeffz/code/js/test] git rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [27ms]
+
+2025-07-26 16:28:18.476 [info] [2025-07-26 13:28:18.003] as.e
+EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, open '/home/modeffz/.local/share/gk/repoMapping.json'
+
+2025-07-26 16:28:21.481 [info] [2025-07-26 13:28:21.112] [           46] LocalGitProvider.onDidChangeRepository(e=Repository(/home/modeffz/code/GitHub/archive|1)) Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[2025-07-26 13:28:21.112] [GIT          ] [/home/modeffz/code/js/null] git rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [59ms]
+
+2025-07-26 16:28:21.982 [info] [2025-07-26 13:28:21.799] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[2025-07-26 13:28:21.800] [GIT          ] [/home/modeffz/code/js/null] git rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [29ms]
+

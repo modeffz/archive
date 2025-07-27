@@ -1,0 +1,19 @@
+2025-07-26T14:26:24.039Z - info: [main] Passing --gtk-version=3 to Electron
+2025-07-26T14:26:33.371Z - info: [ui] [AppStore] loading 4 repositories from store
+2025-07-26T14:26:33.375Z - info: [ui] [AppStore] found account: modeffz (modeffz)
+2025-07-26T14:26:34.662Z - info: [ui] launching: 3.5.1 (Linux 6.15.7-arch1-1)
+2025-07-26T14:26:34.664Z - info: [ui] execPath: '/opt/github-desktop-plus/github-desktop'
+2025-07-26T14:26:35.177Z - info: [ui] Subscribed 'modeffz' to Alive channel
+2025-07-26T14:26:35.477Z - info: [ui] Stats reported.
+2025-07-26T14:26:53.672Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-07-26T14:26:56.532Z - info: [ui] Executing clone: git -c init.defaultBranch=main clone --recursive --progress -- https://github.com/modeffz/hypr_modeffz_me.git /home/modeffz/code/GitHub/hypr_modeffz_me (took 3.444s)
+2025-07-26T14:26:56.546Z - info: [ui] [AppStore] adding repository at /home/modeffz/code/GitHub/hypr_modeffz_me to store
+2025-07-26T14:26:56.749Z - info: [ui] [BranchPruner] Last prune took place 23 seconds ago - skipping
+2025-07-26T14:26:57.312Z - info: [ui] [BranchPruner] No branches to prune.
+2025-07-26T14:30:22.275Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-07-26T14:30:23.001Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-07-26T14:30:23.454Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 5 repositories took 200.2s of which 0.0s paused, total 200.2s
+2025-07-26T14:30:24.738Z - info: [ui] [Timing] Action 'create commit' for 'modeffz/hypr_modeffz_me' took 0.230s
+2025-07-26T14:30:26.603Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-07-26T14:30:27.565Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-07-26T14:30:28.237Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store

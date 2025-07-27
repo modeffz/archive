@@ -1,0 +1,40 @@
+2025-07-26 16:20:43.163 [info] [2025-07-26 13:20:42.998] [*       547ms] [/home/modeffz/code] git rev-parse --show-toplevel (slow) • FAILED
+2025-07-26 16:20:43.163 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-07-26 16:20:43.183 [info] [2025-07-26 13:20:43.183] [         10ms] [/home/modeffz/code/cpp/Platformer/src/menu] git rev-parse --show-toplevel • FAILED
+2025-07-26 16:20:43.183 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-07-26 16:20:49.275 [info] [2025-07-26 13:20:49.275] [         14ms] [/home/modeffz/code/html] git rev-parse --show-toplevel • FAILED
+2025-07-26 16:20:49.275 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-07-26 16:28:11.942 [info] [2025-07-26 13:28:11.942] [        180ms] [/home/modeffz/code/js/test] git rev-parse --show-toplevel • FAILED
+2025-07-26 16:28:11.991 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-07-26 16:28:14.881 [info] [2025-07-26 13:28:14.881] [         59ms] [/home/modeffz/code/js/test] git rev-parse --show-toplevel • FAILED
+2025-07-26 16:28:14.881 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-07-26 16:28:15.958 [info] [2025-07-26 13:28:15.958] [         27ms] [/home/modeffz/code/js/test] git rev-parse --show-toplevel • FAILED
+2025-07-26 16:28:15.958 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-07-26 16:28:21.114 [info] [2025-07-26 13:28:21.112] [         59ms] [/home/modeffz/code/js/null] git rev-parse --show-toplevel • FAILED
+2025-07-26 16:28:21.114 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-07-26 16:28:21.800 [info] [2025-07-26 13:28:21.800] [         29ms] [/home/modeffz/code/js/null] git rev-parse --show-toplevel • FAILED
+2025-07-26 16:28:21.800 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+

@@ -1,0 +1,69 @@
+2025-07-26 16:20:38.019 [info] Extension host with pid 6878 started
+2025-07-26 16:20:38.019 [info] Skipping acquiring lock for /home/modeffz/.config/Code - OSS/User/workspaceStorage/05067504d56af4c2543bbcb8c8e2014c.
+2025-07-26 16:20:38.707 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-26 16:20:38.865 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-07-26 16:20:39.431 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-26 16:20:39.489 [info] ExtensionService#_doActivateExtension wayou.vscode-todo-highlight, startup: true, activationEvent: '*'
+2025-07-26 16:20:39.689 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-26 16:20:39.893 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-26 16:20:39.894 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+2025-07-26 16:20:40.155 [info] Eager extensions activated
+2025-07-26 16:20:40.249 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-26 16:20:40.280 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-26 16:20:40.337 [info] ExtensionService#_doActivateExtension 21zz.vscord, startup: false, activationEvent: 'onStartupFinished'
+2025-07-26 16:20:40.539 [info] ExtensionService#_doActivateExtension bastndev.lynx-keymap, startup: false, activationEvent: 'onStartupFinished'
+2025-07-26 16:20:40.574 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2025-07-26 16:20:40.661 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2025-07-26 16:20:40.996 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-07-26 16:20:41.297 [info] ExtensionService#_doActivateExtension kisstkondoros.vscode-gutter-preview, startup: false, activationEvent: 'onStartupFinished'
+2025-07-26 16:20:41.519 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-07-26 16:20:41.689 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-07-26 16:20:41.769 [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker, startup: false, activationEvent: 'onStartupFinished'
+2025-07-26 16:20:41.972 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2025-07-26 16:20:42.552 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2025-07-26 16:20:42.822 [info] ExtensionService#_doActivateExtension bastndev.bracket-lynx, startup: false, activationEvent: 'onLanguage:javascript'
+2025-07-26 16:20:43.045 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-26 16:20:43.588 [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker-russian, startup: false, activationEvent: 'onStartupFinished'
+2025-07-26 16:20:43.993 [error] TypeError: Cannot read properties of null (reading 'write')
+	at IPCTransport.send (/home/modeffz/.vscode-oss/extensions/21zz.vscord-4.5.3-universal/dist/extension.js:2:19979)
+	at /home/modeffz/.vscode-oss/extensions/21zz.vscord-4.5.3-universal/dist/extension.js:2:20066
+	at new Promise (<anonymous>)
+	at IPCTransport.close (/home/modeffz/.vscode-oss/extensions/21zz.vscord-4.5.3-universal/dist/extension.js:2:20023)
+	at RPCClient.destroy (/home/modeffz/.vscode-oss/extensions/21zz.vscord-4.5.3-universal/dist/extension.js:2:13724)
+	at login (/home/modeffz/.vscode-oss/extensions/21zz.vscord-4.5.3-universal/dist/extension.js:2:460850)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async activate (/home/modeffz/.vscode-oss/extensions/21zz.vscord-4.5.3-universal/dist/extension.js:2:463249)
+	at async db.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:13386)
+	at async db.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:13349)
+	at async db.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:12805)
+2025-07-26 16:21:44.115 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-26 16:21:44.189 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-26 16:21:44.375 [info] ExtensionService#_doActivateExtension pflannery.vscode-versionlens, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-26 16:28:11.246 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-07-26 16:28:11.492 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2025-07-26 16:28:31.808 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-26 16:28:31.881 [error] An error occurred when disposing the subscriptions for extension 'eamodio.gitlens':
+2025-07-26 16:28:31.882 [error] TypeError: Cannot read properties of undefined (reading 'dispose')
+	at Object.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:121704)
+	at Yv.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:107:8922)
+	at Yv.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:107:9018)
+	at Object.dispose (/home/modeffz/.vscode-oss/extensions/eamodio.gitlens-17.3.2-universal/dist/gitlens.js:536:29282)
+	at /home/modeffz/.vscode-oss/extensions/eamodio.gitlens-17.3.2-universal/dist/gitlens.js:813:16179
+	at Array.forEach (<anonymous>)
+	at Object.dispose (/home/modeffz/.vscode-oss/extensions/eamodio.gitlens-17.3.2-universal/dist/gitlens.js:813:16161)
+	at wr (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:748)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:15048
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:1058
+	at Object.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at QG.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:11921)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:9876
+	at Array.map (<anonymous>)
+	at QG.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:9864)
+	at QG.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:10107)
+	at Y3.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:914)
+	at us (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:356:9945)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:356:6484)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:3073)
+2025-07-26 16:28:31.951 [warning] Canceled
+2025-07-26 16:28:31.953 [info] Extension host with pid 6878 exiting with code 0

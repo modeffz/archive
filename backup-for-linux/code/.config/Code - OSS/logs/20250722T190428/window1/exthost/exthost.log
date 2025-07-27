@@ -1,0 +1,145 @@
+2025-07-22 19:04:52.016 [info] Extension host with pid 94726 started
+2025-07-22 19:04:52.033 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-22 19:04:52.068 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-22 19:04:52.146 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-22 19:04:52.747 [info] Eager extensions activated
+2025-07-22 19:04:52.760 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-22 19:04:52.796 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-22 19:04:57.803 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-22 19:04:58.022 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-22 19:04:58.329 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-22 19:04:58.526 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-22 19:06:27.548 [info] ExtensionService#_doActivateExtension pflannery.vscode-versionlens, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-22 19:06:27.666 [info] ExtensionService#_doActivateExtension kisstkondoros.vscode-gutter-preview, startup: false, activationEvent: 'onStartupFinished'
+2025-07-22 19:06:27.717 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2025-07-22 19:06:27.724 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2025-07-22 19:06:27.773 [info] ExtensionService#_doActivateExtension bastndev.lynx-keymap, startup: false, activationEvent: 'onStartupFinished'
+2025-07-22 19:06:27.776 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-07-22 19:06:27.871 [info] ExtensionService#_doActivateExtension wayou.vscode-todo-highlight, startup: false, activationEvent: '*'
+2025-07-22 19:06:27.873 [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker, startup: false, activationEvent: 'onStartupFinished'
+2025-07-22 19:06:28.012 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-07-22 19:06:28.028 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2025-07-22 19:06:28.251 [error] Activating extension pflannery.vscode-versionlens failed due to an error:
+2025-07-22 19:06:28.251 [error] TypeError: Cannot read properties of undefined (reading 'document')
+	at getResourceFolderPath (/home/modeffz/.vscode-oss/extensions/pflannery.vscode-versionlens-1.22.2-universal/dist/src/extension/activate.js:860:49610)
+	at activate (/home/modeffz/.vscode-oss/extensions/pflannery.vscode-versionlens-1.22.2-universal/dist/src/extension/activate.js:860:47396)
+	at sy.kb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:15232)
+	at sy.jb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:14977)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:13135
+	at async db.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:13386)
+	at async db.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:13349)
+	at async db.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:12805)
+2025-07-22 19:06:28.698 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-22 19:06:55.272 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-07-22 19:07:38.849 [info] ExtensionService#_doActivateExtension 21zz.vscord, startup: false, activationEvent: 'onStartupFinished'
+2025-07-22 19:07:39.888 [error] TypeError: Cannot read properties of null (reading 'write')
+	at IPCTransport.send (/home/modeffz/.vscode-oss/extensions/21zz.vscord-4.5.3-universal/dist/extension.js:2:19979)
+	at /home/modeffz/.vscode-oss/extensions/21zz.vscord-4.5.3-universal/dist/extension.js:2:20066
+	at new Promise (<anonymous>)
+	at IPCTransport.close (/home/modeffz/.vscode-oss/extensions/21zz.vscord-4.5.3-universal/dist/extension.js:2:20023)
+	at RPCClient.destroy (/home/modeffz/.vscode-oss/extensions/21zz.vscord-4.5.3-universal/dist/extension.js:2:13724)
+	at login (/home/modeffz/.vscode-oss/extensions/21zz.vscord-4.5.3-universal/dist/extension.js:2:460850)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async activate (/home/modeffz/.vscode-oss/extensions/21zz.vscord-4.5.3-universal/dist/extension.js:2:463249)
+	at async db.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:13386)
+	at async db.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:13349)
+	at async db.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:12805)
+2025-07-22 19:09:30.390 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-22 19:09:30.434 [error] An error occurred when disposing the subscriptions for extension 'eamodio.gitlens':
+2025-07-22 19:09:30.437 [error] TypeError: Cannot read properties of undefined (reading 'dispose')
+	at Object.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:121704)
+	at Yv.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:107:8922)
+	at Yv.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:107:9018)
+	at Object.dispose (/home/modeffz/.vscode-oss/extensions/eamodio.gitlens-17.3.2-universal/dist/gitlens.js:536:29282)
+	at /home/modeffz/.vscode-oss/extensions/eamodio.gitlens-17.3.2-universal/dist/gitlens.js:813:16179
+	at Array.forEach (<anonymous>)
+	at Object.dispose (/home/modeffz/.vscode-oss/extensions/eamodio.gitlens-17.3.2-universal/dist/gitlens.js:813:16161)
+	at wr (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:748)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:15048
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:1058
+	at Object.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at QG.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:11921)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:9876
+	at Array.map (<anonymous>)
+	at QG.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:9864)
+	at QG.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:10107)
+	at Y3.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:914)
+	at us (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:356:9945)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:356:6484)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:3073)
+2025-07-22 19:09:30.449 [info] Extension host with pid 94726 exiting with code 0
+2025-07-22 19:09:36.885 [info] Extension host with pid 95277 started
+2025-07-22 19:09:36.885 [info] Skipping acquiring lock for /home/modeffz/.config/Code - OSS/User/workspaceStorage/05067504d56af4c2543bbcb8c8e2014c.
+2025-07-22 19:09:36.908 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-07-22 19:09:36.937 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-22 19:09:37.026 [info] Eager extensions activated
+2025-07-22 19:09:37.098 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-22 19:09:37.122 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-22 19:09:37.168 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2025-07-22 19:09:37.402 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-07-22 19:09:37.685 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-07-22 19:09:37.752 [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker, startup: false, activationEvent: 'onStartupFinished'
+2025-07-22 19:09:37.934 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-07-22 19:09:38.583 [info] ExtensionService#_doActivateExtension 21zz.vscord, startup: false, activationEvent: 'onStartupFinished'
+2025-07-22 19:09:38.612 [error] Activating extension 21zz.vscord failed due to an error:
+2025-07-22 19:09:38.612 [error] Error: Extension 'vscode.git' is not known or not activated
+	at hb.getActivatedExtension (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:10690)
+	at QG.getExtensionExports (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:10933)
+	at get exports (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:24551)
+	at new Data (/home/modeffz/.vscode-oss/extensions/21zz.vscord-4.5.3-universal/dist/extension.js:2:445891)
+	at /home/modeffz/.vscode-oss/extensions/21zz.vscord-4.5.3-universal/dist/extension.js:2:445464
+	at /home/modeffz/.vscode-oss/extensions/21zz.vscord-4.5.3-universal/dist/extension.js:2:463606
+	at Object.<anonymous> (/home/modeffz/.vscode-oss/extensions/21zz.vscord-4.5.3-universal/dist/extension.js:2:463645)
+	at Module._compile (node:internal/modules/cjs/loader:1738:14)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1904:10)
+	at Module.load (node:internal/modules/cjs/loader:1472:32)
+	at Module._load (node:internal/modules/cjs/loader:1289:12)
+	at c._load (node:electron/js2c/node_init:2:17950)
+	at e._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:356:5519)
+	at t._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:22697)
+	at r._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:166:25633)
+	at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+	at Module.require (node:internal/modules/cjs/loader:1494:12)
+	at require (node:internal/modules/helpers:135:16)
+	at QG.Cb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:205:1253)
+2025-07-22 19:09:38.613 [info] ExtensionService#_doActivateExtension bastndev.lynx-keymap, startup: false, activationEvent: 'onStartupFinished'
+2025-07-22 19:09:38.632 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2025-07-22 19:09:38.690 [info] ExtensionService#_doActivateExtension kisstkondoros.vscode-gutter-preview, startup: false, activationEvent: 'onStartupFinished'
+2025-07-22 19:09:38.768 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-07-22 19:09:38.774 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2025-07-22 19:09:38.781 [info] ExtensionService#_doActivateExtension wayou.vscode-todo-highlight, startup: false, activationEvent: '*'
+2025-07-22 19:09:38.965 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-22 19:15:23.658 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-22 19:17:34.405 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2025-07-22 19:17:34.572 [info] ExtensionService#_doActivateExtension bastndev.bracket-lynx, startup: false, activationEvent: 'onLanguage:javascript'
+2025-07-22 19:18:46.548 [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker-russian, startup: false, activationEvent: 'onStartupFinished'
+2025-07-22 19:19:03.927 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-22 19:19:04.073 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-22 19:19:04.183 [info] ExtensionService#_doActivateExtension pflannery.vscode-versionlens, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-22 19:22:03.733 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-22 19:22:03.761 [error] An error occurred when disposing the subscriptions for extension 'eamodio.gitlens':
+2025-07-22 19:22:03.764 [error] TypeError: Cannot read properties of undefined (reading 'dispose')
+	at Object.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:121704)
+	at Yv.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:107:8922)
+	at Yv.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:107:9018)
+	at Object.dispose (/home/modeffz/.vscode-oss/extensions/eamodio.gitlens-17.3.2-universal/dist/gitlens.js:536:29282)
+	at /home/modeffz/.vscode-oss/extensions/eamodio.gitlens-17.3.2-universal/dist/gitlens.js:813:16179
+	at Array.forEach (<anonymous>)
+	at Object.dispose (/home/modeffz/.vscode-oss/extensions/eamodio.gitlens-17.3.2-universal/dist/gitlens.js:813:16161)
+	at wr (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:748)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:15048
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:1058
+	at Object.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at QG.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:11921)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:9876
+	at Array.map (<anonymous>)
+	at QG.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:9864)
+	at QG.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:10107)
+	at Y3.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:914)
+	at us (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:356:9945)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:356:6484)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:3073)
+2025-07-22 19:22:03.833 [info] Extension host with pid 95277 exiting with code 0

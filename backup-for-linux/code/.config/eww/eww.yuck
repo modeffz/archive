@@ -1,0 +1,19 @@
+(include "widgets/bar.yuck")
+(include "widgets/system.yuck")
+(include "widgets/powermenu.yuck")
+
+(defwindow topbar
+  :monitor 0
+  :windowtype "dock"
+  :geometry (geometry :x "0%" :y "0%" :width "100%" :height "32px" :anchor "top center")
+  :reserve (struts :side "top" :distance "32px")
+  (bar))
+
+(defpoll volume :interval "1s" "wpctl get-volume @DEFAULT_AUDIO_SINK@ | awk '{print int($2 * 100)}'")
+(defpoll time :interval "1s" "date '+%H:%M %a %d.%m'")
+(defpoll cpu :interval "2s" "top -bn1 | grep 'Cpu(s)' | awk '{print int($2 + $4)}'")
+(defpoll ram :interval "3s" "free | awk '/Mem/ {printf \"%.0f\", $3/$2 * 100}'")
+(defpoll disk :interval "10s" "df -h / | awk 'NR==2 {gsub(/%/, \"\", $5); print $5}'")
+(defpoll down :interval "1s" "cat /sys/class/net/wlan0/statistics/rx_bytes")
+(defpoll up :interval "1s" "cat /sys/class/net/wlan0/statistics/tx_bytes")
+

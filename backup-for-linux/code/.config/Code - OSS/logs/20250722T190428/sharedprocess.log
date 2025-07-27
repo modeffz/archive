@@ -1,0 +1,106 @@
+2025-07-22 19:04:46.617 [info] Started initializing default profile extensions in extensions installation folder. file:///home/modeffz/.vscode-oss/extensions
+2025-07-22 19:04:49.726 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/modeffz/.vscode-oss/extensions
+2025-07-22 19:05:49.359 [info] Getting Manifest... bastndev.lynx-theme
+2025-07-22 19:05:50.039 [info] Installing extension: bastndev.lynx-theme {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json","path":"/home/modeffz/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.102.1","date":"2025-07-19T14:09:10.325Z"}}
+2025-07-22 19:05:57.011 [info] Extension signature verification result for bastndev.lynx-theme: Success. Executed: true. Duration: 899ms.
+2025-07-22 19:05:57.910 [info] Extracted extension to file:///home/modeffz/.vscode-oss/extensions/bastndev.lynx-theme-1.9.9-universal: bastndev.lynx-theme
+2025-07-22 19:05:57.993 [info] Renamed to /home/modeffz/.vscode-oss/extensions/bastndev.lynx-theme-1.9.9-universal
+2025-07-22 19:05:58.050 [info] Extension installed successfully: bastndev.lynx-theme vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json
+2025-07-22 19:06:12.760 [info] Getting Manifest... bastndev.lynxjs-pack
+2025-07-22 19:06:12.978 [info] Installing extension: bastndev.lynxjs-pack {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json","path":"/home/modeffz/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.102.1","date":"2025-07-19T14:09:10.325Z"}}
+2025-07-22 19:06:13.602 [info] Getting Manifest... bastndev.lynx-js-snippets
+2025-07-22 19:06:13.813 [info] Getting Manifest... bradlc.vscode-tailwindcss
+2025-07-22 19:06:14.019 [info] Getting Manifest... esbenp.prettier-vscode
+2025-07-22 19:06:14.218 [info] Getting Manifest... bastndev.lynx-theme
+2025-07-22 19:06:14.413 [info] Getting Manifest... eamodio.gitlens
+2025-07-22 19:06:15.507 [info] Getting Manifest... bastndev.bracket-lynx
+2025-07-22 19:06:15.716 [info] Getting Manifest... wayou.vscode-todo-highlight
+2025-07-22 19:06:15.918 [info] Getting Manifest... kisstkondoros.vscode-gutter-preview
+2025-07-22 19:06:16.132 [info] Getting Manifest... pflannery.vscode-versionlens
+2025-07-22 19:06:16.345 [info] Getting Manifest... bastndev.lynx-keymap
+2025-07-22 19:06:16.559 [info] Getting Manifest... streetsidesoftware.code-spell-checker
+2025-07-22 19:06:17.143 [info] Getting Manifest... pkief.material-icon-theme
+2025-07-22 19:06:17.343 [info] Getting Manifest... usernamehw.errorlens
+2025-07-22 19:06:17.564 [info] Installing extension: bastndev.lynx-js-snippets {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json","path":"/home/modeffz/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.102.1","date":"2025-07-19T14:09:10.325Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-22 19:06:17.564 [info] Installing extension: bradlc.vscode-tailwindcss {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json","path":"/home/modeffz/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.102.1","date":"2025-07-19T14:09:10.325Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-22 19:06:17.564 [info] Installing extension: esbenp.prettier-vscode {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json","path":"/home/modeffz/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.102.1","date":"2025-07-19T14:09:10.325Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-22 19:06:17.564 [info] Installing extension: eamodio.gitlens {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json","path":"/home/modeffz/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.102.1","date":"2025-07-19T14:09:10.325Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-22 19:06:17.564 [info] Installing extension: bastndev.bracket-lynx {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json","path":"/home/modeffz/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.102.1","date":"2025-07-19T14:09:10.325Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-22 19:06:17.564 [info] Installing extension: wayou.vscode-todo-highlight {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json","path":"/home/modeffz/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.102.1","date":"2025-07-19T14:09:10.325Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-22 19:06:17.565 [info] Installing extension: kisstkondoros.vscode-gutter-preview {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json","path":"/home/modeffz/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.102.1","date":"2025-07-19T14:09:10.325Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-22 19:06:17.565 [info] Installing extension: pflannery.vscode-versionlens {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json","path":"/home/modeffz/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.102.1","date":"2025-07-19T14:09:10.325Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-22 19:06:17.565 [info] Installing extension: bastndev.lynx-keymap {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json","path":"/home/modeffz/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.102.1","date":"2025-07-19T14:09:10.325Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-22 19:06:17.565 [info] Installing extension: streetsidesoftware.code-spell-checker {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json","path":"/home/modeffz/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.102.1","date":"2025-07-19T14:09:10.325Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-22 19:06:17.565 [info] Installing extension: pkief.material-icon-theme {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json","path":"/home/modeffz/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.102.1","date":"2025-07-19T14:09:10.325Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-22 19:06:17.565 [info] Installing extension: usernamehw.errorlens {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json","path":"/home/modeffz/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.102.1","date":"2025-07-19T14:09:10.325Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-22 19:06:20.917 [info] Extension signature verification result for bastndev.lynxjs-pack: Success. Executed: true. Duration: 568ms.
+2025-07-22 19:06:20.933 [info] Extracted extension to file:///home/modeffz/.vscode-oss/extensions/bastndev.lynxjs-pack-0.3.7-universal: bastndev.lynxjs-pack
+2025-07-22 19:06:20.994 [info] Extension signature verification result for pflannery.vscode-versionlens: Success. Executed: true. Duration: 588ms.
+2025-07-22 19:06:21.005 [info] Renamed to /home/modeffz/.vscode-oss/extensions/bastndev.lynxjs-pack-0.3.7-universal
+2025-07-22 19:06:21.056 [info] Extracted extension to file:///home/modeffz/.vscode-oss/extensions/pflannery.vscode-versionlens-1.22.2-universal: pflannery.vscode-versionlens
+2025-07-22 19:06:21.116 [info] Renamed to /home/modeffz/.vscode-oss/extensions/pflannery.vscode-versionlens-1.22.2-universal
+2025-07-22 19:06:21.298 [info] Extension signature verification result for bastndev.lynx-js-snippets: Success. Executed: true. Duration: 600ms.
+2025-07-22 19:06:21.309 [info] Extension signature verification result for bradlc.vscode-tailwindcss: Success. Executed: true. Duration: 609ms.
+2025-07-22 19:06:21.317 [info] Extension signature verification result for kisstkondoros.vscode-gutter-preview: Success. Executed: true. Duration: 613ms.
+2025-07-22 19:06:21.323 [info] Extension signature verification result for bastndev.bracket-lynx: Success. Executed: true. Duration: 622ms.
+2025-07-22 19:06:21.362 [info] Extension signature verification result for esbenp.prettier-vscode: Success. Executed: true. Duration: 312ms.
+2025-07-22 19:06:21.372 [info] Extracted extension to file:///home/modeffz/.vscode-oss/extensions/bastndev.bracket-lynx-0.3.6-universal: bastndev.bracket-lynx
+2025-07-22 19:06:21.397 [info] Extension signature verification result for streetsidesoftware.code-spell-checker: Success. Executed: true. Duration: 693ms.
+2025-07-22 19:06:21.412 [info] Extracted extension to file:///home/modeffz/.vscode-oss/extensions/bastndev.lynx-js-snippets-0.2.6-universal: bastndev.lynx-js-snippets
+2025-07-22 19:06:21.418 [info] Renamed to /home/modeffz/.vscode-oss/extensions/bastndev.bracket-lynx-0.3.6-universal
+2025-07-22 19:06:21.433 [info] Extension signature verification result for usernamehw.errorlens: Success. Executed: true. Duration: 678ms.
+2025-07-22 19:06:21.433 [info] Extracted extension to file:///home/modeffz/.vscode-oss/extensions/kisstkondoros.vscode-gutter-preview-0.32.2-universal: kisstkondoros.vscode-gutter-preview
+2025-07-22 19:06:21.519 [info] Renamed to /home/modeffz/.vscode-oss/extensions/bastndev.lynx-js-snippets-0.2.6-universal
+2025-07-22 19:06:21.527 [info] Extracted extension to file:///home/modeffz/.vscode-oss/extensions/usernamehw.errorlens-3.26.0-universal: usernamehw.errorlens
+2025-07-22 19:06:21.537 [info] Renamed to /home/modeffz/.vscode-oss/extensions/kisstkondoros.vscode-gutter-preview-0.32.2-universal
+2025-07-22 19:06:21.554 [info] Extension signature verification result for bastndev.lynx-keymap: Success. Executed: true. Duration: 798ms.
+2025-07-22 19:06:21.571 [info] Extracted extension to file:///home/modeffz/.vscode-oss/extensions/bradlc.vscode-tailwindcss-0.14.25-universal: bradlc.vscode-tailwindcss
+2025-07-22 19:06:21.605 [info] Renamed to /home/modeffz/.vscode-oss/extensions/usernamehw.errorlens-3.26.0-universal
+2025-07-22 19:06:21.622 [info] Extracted extension to file:///home/modeffz/.vscode-oss/extensions/bastndev.lynx-keymap-2.0.1-universal: bastndev.lynx-keymap
+2025-07-22 19:06:21.686 [info] Extracted extension to file:///home/modeffz/.vscode-oss/extensions/esbenp.prettier-vscode-11.0.0-universal: esbenp.prettier-vscode
+2025-07-22 19:06:21.689 [info] Renamed to /home/modeffz/.vscode-oss/extensions/bradlc.vscode-tailwindcss-0.14.25-universal
+2025-07-22 19:06:21.690 [info] Renamed to /home/modeffz/.vscode-oss/extensions/bastndev.lynx-keymap-2.0.1-universal
+2025-07-22 19:06:21.800 [info] Renamed to /home/modeffz/.vscode-oss/extensions/esbenp.prettier-vscode-11.0.0-universal
+2025-07-22 19:06:21.844 [info] Extension signature verification result for wayou.vscode-todo-highlight: Success. Executed: true. Duration: 301ms.
+2025-07-22 19:06:21.905 [info] Extracted extension to file:///home/modeffz/.vscode-oss/extensions/wayou.vscode-todo-highlight-1.0.5-universal: wayou.vscode-todo-highlight
+2025-07-22 19:06:21.937 [info] Extracted extension to file:///home/modeffz/.vscode-oss/extensions/streetsidesoftware.code-spell-checker-4.0.47-universal: streetsidesoftware.code-spell-checker
+2025-07-22 19:06:22.001 [info] Extension signature verification result for pkief.material-icon-theme: Success. Executed: true. Duration: 765ms.
+2025-07-22 19:06:22.054 [info] Renamed to /home/modeffz/.vscode-oss/extensions/wayou.vscode-todo-highlight-1.0.5-universal
+2025-07-22 19:06:22.080 [info] Renamed to /home/modeffz/.vscode-oss/extensions/streetsidesoftware.code-spell-checker-4.0.47-universal
+2025-07-22 19:06:22.817 [info] Extracted extension to file:///home/modeffz/.vscode-oss/extensions/pkief.material-icon-theme-5.24.0-universal: pkief.material-icon-theme
+2025-07-22 19:06:22.884 [info] Renamed to /home/modeffz/.vscode-oss/extensions/pkief.material-icon-theme-5.24.0-universal
+2025-07-22 19:06:26.377 [info] Extension signature verification result for eamodio.gitlens: Success. Executed: true. Duration: 397ms.
+2025-07-22 19:06:26.798 [info] Extracted extension to file:///home/modeffz/.vscode-oss/extensions/eamodio.gitlens-17.3.2-universal: eamodio.gitlens
+2025-07-22 19:06:26.869 [info] Renamed to /home/modeffz/.vscode-oss/extensions/eamodio.gitlens-17.3.2-universal
+2025-07-22 19:06:26.968 [info] Extension installed successfully: bastndev.lynxjs-pack vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json
+2025-07-22 19:06:26.968 [info] Extension installed successfully: pflannery.vscode-versionlens vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json
+2025-07-22 19:06:26.969 [info] Extension installed successfully: bastndev.bracket-lynx vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json
+2025-07-22 19:06:26.969 [info] Extension installed successfully: bastndev.lynx-js-snippets vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json
+2025-07-22 19:06:26.969 [info] Extension installed successfully: kisstkondoros.vscode-gutter-preview vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json
+2025-07-22 19:06:26.969 [info] Extension installed successfully: usernamehw.errorlens vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json
+2025-07-22 19:06:26.969 [info] Extension installed successfully: bradlc.vscode-tailwindcss vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json
+2025-07-22 19:06:26.969 [info] Extension installed successfully: bastndev.lynx-keymap vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json
+2025-07-22 19:06:26.970 [info] Extension installed successfully: esbenp.prettier-vscode vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json
+2025-07-22 19:06:26.970 [info] Extension installed successfully: wayou.vscode-todo-highlight vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json
+2025-07-22 19:06:26.970 [info] Extension installed successfully: streetsidesoftware.code-spell-checker vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json
+2025-07-22 19:06:26.970 [info] Extension installed successfully: pkief.material-icon-theme vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json
+2025-07-22 19:06:26.971 [info] Extension installed successfully: eamodio.gitlens vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json
+2025-07-22 19:06:43.356 [info] Getting Manifest... ritwickdey.liveserver
+2025-07-22 19:06:43.555 [info] Installing extension: ritwickdey.liveserver {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json","path":"/home/modeffz/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.102.1","date":"2025-07-19T14:09:10.325Z"}}
+2025-07-22 19:06:51.108 [info] Extension signature verification result for ritwickdey.liveserver: Success. Executed: true. Duration: 1330ms.
+2025-07-22 19:06:54.635 [info] Extracted extension to file:///home/modeffz/.vscode-oss/extensions/ritwickdey.liveserver-5.7.9-universal: ritwickdey.liveserver
+2025-07-22 19:06:54.915 [info] Renamed to /home/modeffz/.vscode-oss/extensions/ritwickdey.liveserver-5.7.9-universal
+2025-07-22 19:06:55.107 [info] Extension installed successfully: ritwickdey.liveserver vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json
+2025-07-22 19:07:35.437 [info] Getting Manifest... 21zz.vscord
+2025-07-22 19:07:35.642 [info] Installing extension: 21zz.vscord {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json","path":"/home/modeffz/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.102.1","date":"2025-07-19T14:09:10.325Z"}}
+2025-07-22 19:07:38.558 [info] Extension signature verification result for 21zz.vscord: Success. Executed: true. Duration: 586ms.
+2025-07-22 19:07:38.582 [info] Extracted extension to file:///home/modeffz/.vscode-oss/extensions/21zz.vscord-4.5.3-universal: 21zz.vscord
+2025-07-22 19:07:38.622 [info] Renamed to /home/modeffz/.vscode-oss/extensions/21zz.vscord-4.5.3-universal
+2025-07-22 19:07:38.692 [info] Extension installed successfully: 21zz.vscord vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json
+2025-07-22 19:18:40.843 [info] Getting Manifest... streetsidesoftware.code-spell-checker-russian
+2025-07-22 19:18:41.499 [info] Installing extension: streetsidesoftware.code-spell-checker-russian {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json","path":"/home/modeffz/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.102.1","date":"2025-07-19T14:09:10.325Z"}}
+2025-07-22 19:18:42.109 [info] Getting Manifest... streetsidesoftware.code-spell-checker
+2025-07-22 19:18:46.298 [info] Extension signature verification result for streetsidesoftware.code-spell-checker-russian: Success. Executed: true. Duration: 1093ms.
+2025-07-22 19:18:46.339 [info] Extracted extension to file:///home/modeffz/.vscode-oss/extensions/streetsidesoftware.code-spell-checker-russian-2.2.4-universal: streetsidesoftware.code-spell-checker-russian
+2025-07-22 19:18:46.384 [info] Renamed to /home/modeffz/.vscode-oss/extensions/streetsidesoftware.code-spell-checker-russian-2.2.4-universal
+2025-07-22 19:18:46.484 [info] Extension installed successfully: streetsidesoftware.code-spell-checker-russian vscode-userdata:/home/modeffz/.vscode-oss/extensions/extensions.json

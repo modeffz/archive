@@ -1,0 +1,9 @@
+[2025-07-22T16:06:28.279Z] [INFO] Lynx Keymap 75% Keyboard is now activating...
+[2025-07-22T16:06:28.280Z] [INFO] ManagerFactory initialized
+[2025-07-22T16:06:28.281Z] [INFO] Created new manager: icon-colors
+[2025-07-22T16:06:28.281Z] [INFO] Created new manager: macros
+[2025-07-22T16:06:28.281Z] [INFO] Preloaded 2 managers in 1ms
+[2025-07-22T16:06:28.579Z] [INFO] Created new manager: ai-commands
+[2025-07-22T16:06:28.579Z] [INFO] Registering AI commands
+[2025-07-22T16:06:28.580Z] [INFO] Registered 6 AI commands
+[2025-07-22T16:06:28.580Z] [INFO] Lynx Keymap 75% Keyboard activated successfully in 301ms

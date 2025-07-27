@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя стартовая страница</title>
+    <style>
+        :root {
+            --red-accent: #ff4444;
+            --dark-red: #8b0000;
+            --light-red: #ff6b6b;
+            --bg-overlay: rgba(0, 0, 0, 0.7);
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('red-cat.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: var(--bg-overlay);
+            z-index: -1;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            text-align: center;
+        }
+
+        input[type="text"] {
+            width: 70%;
+            padding: 12px;
+            font-size: 16px;
+            border: 2px solid var(--red-accent);
+            border-radius: 24px;
+            background: rgba(255, 255, 255, 0.9);
+            outline: none;
+        }
+
+        .widgets {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .widget {
+            background: rgba(139, 0, 0, 0.7);
+            border: 2px solid var(--red-accent);
+            border-radius: 10px;
+            padding: 15px;
+            text-align: left;
+        }
+
+        .quick-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .link-item {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 10px;
+            border-radius: 8px;
+            border: 2px solid var(--red-accent);
+            transition: all 0.3s;
+            color: #333;
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .link-item img {
+            width: 32px;
+            height: 32px;
+            margin-bottom: 8px;
+        }
+
+        .link-item:hover {
+            transform: translateY(-5px);
+            background: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="time" id="time"></div>
+        <div class="date" id="date"></div>
+
+        <div class="search-box">
+            <form action="https://duckduckgo.com/" method="get">
+                <input type="text" name="q" placeholder="Поиск через DuckDuckGo...">
+            </form>
+        </div>
+
+        <div class="widgets">
+            <div class="widget">
+                <h3>Погода</h3>
+                <div id="weather">
+                    <p>Загрузка...</p>
+                </div>
+            </div>
+
+            <div class="widget">
+                <h3>Курс валют</h3>
+                <div id="currency">
+                    <p>Загрузка...</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="quick-links">
+            <a href="https://youtube.com" class="link-item">
+                <img src="https://www.youtube.com/s/desktop/d6e43d7a/img/favicon_32x32.png" alt="YouTube">
+                YouTube
+            </a>
+            <a href="https://github.com" class="link-item">
+                <img src="https://github.githubassets.com/favicons/favicon.png" alt="GitHub">
+                GitHub
+            </a>
+            <a href="https://translate.google.com.ua" class="link-item">
+                <img src="https://www.svgrepo.com/show/452031/google-translate.svg" alt="Translate">
+                Переводчик
+            </a>
+            <a href="https://calendar.google.com" class="link-item">
+                <img src="https://www.svgrepo.com/show/373596/calendar-google.svg" alt="Календарь">
+                Календарь
+            </a>
+        </div>
+    </div>
+
+    <script>
+        function updateTime() {
+            const now = new Date();
+            document.getElementById('time').textContent = now.toLocaleTimeString('uk-UA');
+            document.getElementById('date').textContent = now.toLocaleDateString('uk-UA', {
+                weekday: 'long',
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            });
+        }
+        setInterval(updateTime, 1000);
+        updateTime();
+
+        async function fetchWeather() {
+            const city = 'Kryvyi Rih,UA';
+            const apiKey = '7431e9aae7a626d2a7c7838ddf18f15f';
+            const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&lang=uk&appid=${apiKey}`;
+
+            try {
+                const response = await fetch(url);
+                const data = await response.json();
+
+                if (data.cod === 200) {
+                    const weather = `
+                        <p>Температура: ${Math.round(data.main.temp)}°C</p>
+                        <p>Ощущается как: ${Math.round(data.main.feels_like)}°C</p>
+                        <p>${data.weather[0].description}</p>
+                        <p>Влажность: ${data.main.humidity}%</p>
+                        <p>Ветер: ${Math.round(data.wind.speed)} м/с</p>
+                    `;
+                    document.getElementById('weather').innerHTML = weather;
+                } else {
+                    document.getElementById('weather').innerHTML = `<p>Помилка завантаження</p>`;
+                }
+            } catch (error) {
+                document.getElementById('weather').innerHTML = `<p>Помилка завантаження</p>`;
+            }
+        }
+
+        async function fetchCurrency() {
+            try {
+                const response = await fetch('https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json');
+                const data = await response.json();
+
+                const usd = data.find(item => item.cc === 'USD').rate.toFixed(2);
+                const eur = data.find(item => item.cc === 'EUR').rate.toFixed(2);
+
+                document.getElementById('currency').innerHTML = `
+                    <p>USD: ${usd} ₴</p>
+                    <p>EUR: ${eur} ₴</p>
+                    <p>Последнее обновление: ${new Date().toLocaleTimeString('uk-UA')}</p>
+                `;
+            } catch (error) {
+                document.getElementById('currency').innerHTML = `<p>Помилка завантаження</p>`;
+            }
+        }
+
+        window.addEventListener('load', () => {
+            fetchWeather();
+            fetchCurrency();
+        });
+    </script>
+</body>
+</html>

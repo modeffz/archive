@@ -1,0 +1,18 @@
+2025-07-23T11:26:54.171Z - info: [main] Passing --gtk-version=3 to Electron
+2025-07-23T11:27:05.536Z - info: [ui] [AppStore] loading 3 repositories from store
+2025-07-23T11:27:05.539Z - info: [ui] [AppStore] found account: modeffz (modeffz)
+2025-07-23T11:27:06.508Z - info: [ui] launching: 3.5.1 (Linux 6.15.7-arch1-1)
+2025-07-23T11:27:06.512Z - info: [ui] execPath: '/opt/github-desktop-plus/github-desktop'
+2025-07-23T11:27:06.914Z - info: [ui] Subscribed 'modeffz' to Alive channel
+2025-07-23T11:27:07.116Z - info: [ui] Stats reported.
+2025-07-23T11:27:14.062Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-07-23T11:27:14.793Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-07-23T11:29:36.821Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.202s)
+2025-07-23T11:29:37.105Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 1.9s of which 0.0s paused, total 1.9s
+2025-07-23T11:29:51.586Z - info: [ui] Executing clone: git -c init.defaultBranch=main clone --recursive --progress -- https://github.com/modeffz/homepage.git /home/modeffz/code/GitHub/homepage (took 1.006s)
+2025-07-23T11:29:51.599Z - info: [ui] [AppStore] adding repository at /home/modeffz/code/GitHub/homepage to store
+2025-07-23T11:29:51.724Z - info: [ui] [BranchPruner] Last prune took place 3 minutes ago - skipping
+2025-07-23T11:29:52.129Z - info: [ui] [BranchPruner] No branches to prune.
+2025-07-23T11:30:06.849Z - info: [ui] [Timing] Action 'create commit' for 'modeffz/homepage' took 0.152s
+2025-07-23T11:30:08.258Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-07-23T11:30:09.097Z - info: [ui] Executing push: git push origin main:main --progress (took 1.286s)
